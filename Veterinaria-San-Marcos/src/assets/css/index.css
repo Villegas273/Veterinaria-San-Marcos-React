@@ -4,6 +4,21 @@ body {
     margin: 0;
 }
 
+h1 {
+    color: green; 
+    margin-top: -80px
+}
+
+.h1inicio {
+    color: green; 
+    margin-top: 90px
+
+}
+
+.p-4 {
+    padding: 100px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -19,8 +34,11 @@ main {
     background-color: #198754;
     color: white;
     text-align: center;
+    margin-top: 185px;
     padding: 30px;
 }
+
+
 
 .footer-veterinaria p {
     margin: 5px;
@@ -28,9 +46,11 @@ main {
 
 
 
+
 #carouselExample {
     width: 1000px;
     margin: 0 auto;
+    
 }
 
 #carouselExample img {
