@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 
+import "../assets/css/index.css"
 export const Header = () => {
     return (
           <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -20,7 +21,7 @@ export const Header = () => {
 
                     <li className="nav-item">
 
-                        <NavLink className="nav-link ${activePage === 'inicio' ? 'active' : ''}" to="/inicio">Home</NavLink>
+                        <NavLink className="nav-link ${activePage === 'inicio' ? 'active' : ''}" to="/">Home</NavLink>
 
                     </li>
 
@@ -33,18 +34,16 @@ export const Header = () => {
                     
                     <li className="nav-item">
 
-                        <a className="nav-link" href="inicio-sesion.html">
-                            Inicio de Sesion
-                        </a>
+                        <NavLink className="nav-link ${activePage === 'Inicio-Sesion' ? 'active' : ''}" to="/inicio-sesion">Inicio Sesion</NavLink>
 
                     </li>
 
                     <li className="nav-item">
-                       <a className="nav-link" href="registro-usuario.html">Registro de usuario</a>
+                        <NavLink className="nav-link ${activePage === 'Registro' ? 'active' : ''}" to="/registro">Registro</NavLink>
                     </li>
 
                     <li className="nav-item">
-                      <a className="nav-link" href="contacto.html">Contacto</a>
+                      <NavLink className="nav-link ${activePage === 'Contacto' ? 'active' : ''}" to="/contacto">Contacto</NavLink>
                     </li>
 
 

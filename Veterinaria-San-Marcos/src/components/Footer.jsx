@@ -1,4 +1,5 @@
 
+import "../assets/css/index.css"
 export const Footer = () => {
     return(
         <footer className="footer-veterinaria">

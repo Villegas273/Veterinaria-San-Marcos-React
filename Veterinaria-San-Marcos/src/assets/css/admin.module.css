@@ -1,0 +1,21 @@
+.adminLayout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.menuLateral {
+    width: 250px;
+    min-width: 250px;
+    min-height: 100vh;
+    align-items: flex-start;
+}
+
+.lista {
+    margin-top: 250px;
+}
+
+.contenido {
+    flex: 1;
+    margin-top: 150px;
+    margin-left: 50px;
+}

@@ -20,7 +20,7 @@ export const Inicio = () => {
                 <h1>Veterinaria San Marcos</h1>
 
                 <p className="lead">
-                    Cuidamos a tus mascotas como parte de nuestra familia.
+                    Cuidamos a tus mascotas como parte de nuestra familia.<br />
                     Atención veterinaria y productos para el bienestar de perros y gatos.
                 </p>
 
