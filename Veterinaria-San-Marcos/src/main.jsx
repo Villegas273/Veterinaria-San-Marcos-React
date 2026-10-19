@@ -10,6 +10,8 @@ import { Inicio_Sesion } from './pages/inicio-sesion.jsx'
 import { Registro } from './pages/registro.jsx'
 import { Contacto } from './pages/contacto.jsx'
 import { Admin } from './pages/admin/admin.jsx'
+import { ProductosAdmin } from './pages/admin/productosAdmin.jsx'
+import { Usuarios } from './pages/admin/usuarios.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,6 +23,8 @@ createRoot(document.getElementById('root')).render(
         <Route path='/registro' element={<Registro />} />
         <Route path='/contacto' element={<Contacto />} />
         <Route path="/admin" element={<Admin />} />
+        <Route path="/productosAdmin" element={<ProductosAdmin />} />
+        <Route path="/usuarios" element={<Usuarios />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

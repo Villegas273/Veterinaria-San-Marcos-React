@@ -1,26 +1,4 @@
-import AlimentoGatos from "../imagenes/inicio/alimento-gatos.png";
-import AlimentoPerros from "../imagenes/inicio/alimento-perros.png";
 
-const productos = [
-    {
-        id: 1,
-        nombre: "Alimento para perros",
-        precio: 15990,
-        imagen: AlimentoPerros
-    },
-    {
-        id: 2,
-        nombre: "Alimento para gatos",
-        precio: 12990,
-        imagen: AlimentoGatos
-    },
-    {
-        id: 3,
-        nombre: "Antiparasitario",
-        precio: 8990,
-        imagen: "/admin/img/antiparasito.png"
-    }
-];
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
