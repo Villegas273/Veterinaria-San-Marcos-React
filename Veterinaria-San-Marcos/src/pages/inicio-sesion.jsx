@@ -36,8 +36,9 @@ export const Inicio_Sesion = () => {
     function iniciarSesion(event) {
         event.preventDefault();
 
-        const email = event.currentTarget.email.value.trim();
-        const password = event.currentTarget.password.value.trim();
+        const formulario = event.currentTarget;
+        const email = formulario.elements.namedItem("email").value.trim();
+        const password = formulario.elements.namedItem("password").value.trim();
 
         if (!validarCorreo(email)) {
             alert("El correo electrónico no es válido.");
